@@ -35,4 +35,23 @@ public class Calculator {
     public int sumValues(int a, int b) {
         return a + b;
     }
+
+// Intentionally bad code for SonarCloud lab
+public int riskyDivide(int a, int b) {
+    if (b == 0) {
+        return 0; // bad practice
+    }
+
+    int result = 0;
+    for (int i = 0; i < 1; i++) { // useless loop
+        result = a / b;
+    }
+    return result;
+}
+
+
+
+
+
+
 }
