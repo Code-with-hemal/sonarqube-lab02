@@ -56,7 +56,7 @@ By completing this lab, students will be able to:
 - This project is **intentionally imperfect**.
 - Quality issues are expected and required for the lab.
 - Do **not** aim for a green Quality Gate in the first run.
-
+trigger
 ---
 
 
